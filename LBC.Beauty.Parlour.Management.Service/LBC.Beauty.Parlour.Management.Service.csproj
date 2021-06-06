@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>02572314-a463-4f1e-bd18-91e0ff4ead81</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Cors" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning" Version="5.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.6">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.0.0-rc4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LBC.Beauty.Parlour.Management.DataAccess\LBC.Beauty.Parlour.Management.DataAccess.csproj" />
+    <ProjectReference Include="..\LBC.Beauty.Parlour.Management.Domain\LBC.Beauty.Parlour.Management.Domain.csproj" />
+  </ItemGroup>
+
+
+</Project>

@@ -1,0 +1,214 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Source Code\\LBC.Beauty.Parlour.Management\\LBC.Beauty.Parlour.Management.Service\\LBC.Beauty.Parlour.Management.Service.csproj": {}
+  },
+  "projects": {
+    "D:\\Source Code\\LBC.Beauty.Parlour.Management\\LBC.Beauty.Parlour.Management.DataAccess\\LBC.Beauty.Parlour.Management.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Source Code\\LBC.Beauty.Parlour.Management\\LBC.Beauty.Parlour.Management.DataAccess\\LBC.Beauty.Parlour.Management.DataAccess.csproj",
+        "projectName": "LBC.Beauty.Parlour.Management.DataAccess",
+        "projectPath": "D:\\Source Code\\LBC.Beauty.Parlour.Management\\LBC.Beauty.Parlour.Management.DataAccess\\LBC.Beauty.Parlour.Management.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\chakr\\.nuget\\packages\\",
+        "outputPath": "D:\\Source Code\\LBC.Beauty.Parlour.Management\\LBC.Beauty.Parlour.Management.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\chakr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\Source Code\\LBC.Beauty.Parlour.Management\\LBC.Beauty.Parlour.Management.Domain\\LBC.Beauty.Parlour.Management.Domain.csproj": {
+                "projectPath": "D:\\Source Code\\LBC.Beauty.Parlour.Management\\LBC.Beauty.Parlour.Management.Domain\\LBC.Beauty.Parlour.Management.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Source Code\\LBC.Beauty.Parlour.Management\\LBC.Beauty.Parlour.Management.Domain\\LBC.Beauty.Parlour.Management.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Source Code\\LBC.Beauty.Parlour.Management\\LBC.Beauty.Parlour.Management.Domain\\LBC.Beauty.Parlour.Management.Domain.csproj",
+        "projectName": "LBC.Beauty.Parlour.Management.Domain",
+        "projectPath": "D:\\Source Code\\LBC.Beauty.Parlour.Management\\LBC.Beauty.Parlour.Management.Domain\\LBC.Beauty.Parlour.Management.Domain.csproj",
+        "packagesPath": "C:\\Users\\chakr\\.nuget\\packages\\",
+        "outputPath": "D:\\Source Code\\LBC.Beauty.Parlour.Management\\LBC.Beauty.Parlour.Management.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\chakr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Source Code\\LBC.Beauty.Parlour.Management\\LBC.Beauty.Parlour.Management.Service\\LBC.Beauty.Parlour.Management.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Source Code\\LBC.Beauty.Parlour.Management\\LBC.Beauty.Parlour.Management.Service\\LBC.Beauty.Parlour.Management.Service.csproj",
+        "projectName": "LBC.Beauty.Parlour.Management.Service",
+        "projectPath": "D:\\Source Code\\LBC.Beauty.Parlour.Management\\LBC.Beauty.Parlour.Management.Service\\LBC.Beauty.Parlour.Management.Service.csproj",
+        "packagesPath": "C:\\Users\\chakr\\.nuget\\packages\\",
+        "outputPath": "D:\\Source Code\\LBC.Beauty.Parlour.Management\\LBC.Beauty.Parlour.Management.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\chakr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\Source Code\\LBC.Beauty.Parlour.Management\\LBC.Beauty.Parlour.Management.DataAccess\\LBC.Beauty.Parlour.Management.DataAccess.csproj": {
+                "projectPath": "D:\\Source Code\\LBC.Beauty.Parlour.Management\\LBC.Beauty.Parlour.Management.DataAccess\\LBC.Beauty.Parlour.Management.DataAccess.csproj"
+              },
+              "D:\\Source Code\\LBC.Beauty.Parlour.Management\\LBC.Beauty.Parlour.Management.Domain\\LBC.Beauty.Parlour.Management.Domain.csproj": {
+                "projectPath": "D:\\Source Code\\LBC.Beauty.Parlour.Management\\LBC.Beauty.Parlour.Management.Domain\\LBC.Beauty.Parlour.Management.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Cors": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Versioning": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.0.0-rc4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
