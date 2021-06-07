@@ -10,8 +10,10 @@ using System.Threading.Tasks;
 
 namespace LBC.Beauty.Parlour.Management.Service.Controllers
 {
+    [ApiVersion("1.0")]
     [ApiController]
     [EnableCors("CorsPolicy")]
+    [Route("api/secquest/")]
     public class SecurityQuestionController : ControllerBase
     {
         private readonly IUnitOfWork _unitOfWork;
@@ -22,7 +24,7 @@ namespace LBC.Beauty.Parlour.Management.Service.Controllers
 
         [HttpGet]
         [EnableCors("CorsPolicy")]
-        [Route("api/secquest/allsecquest")]
+        [Route("allsecquest")]
         public IActionResult GetAllSecurityQuestions()
         {
             var allSecurityQuestions = _unitOfWork.SecurityQuestion.GetAllSecurityQuestion();
@@ -31,7 +33,7 @@ namespace LBC.Beauty.Parlour.Management.Service.Controllers
 
         [HttpGet]
         [EnableCors("CorsPolicy")]
-        [Route("api/secquest/secquestbyid")]
+        [Route("secquestbyid")]
         public IActionResult GetSecurityQuestionById(int secquestId)
         {
             var SecurityQuestionistrator = _unitOfWork.SecurityQuestion.GetSecurityQuestionById(secquestId);
@@ -40,7 +42,7 @@ namespace LBC.Beauty.Parlour.Management.Service.Controllers
 
         [HttpPost]
         [EnableCors("CorsPolicy")]
-        [Route("api/secquest/insertsecquest")]
+        [Route("insertsecquest")]
         public IActionResult InsertSecurityQuestion([FromBody] SecurityQuestion secquest)
         {
             _unitOfWork.SecurityQuestion.InsertSecurityQuestion(secquest);
@@ -50,7 +52,7 @@ namespace LBC.Beauty.Parlour.Management.Service.Controllers
 
         [HttpPost]
         [EnableCors("CorsPolicy")]
-        [Route("api/secquest/bulkinsertsecquest")]
+        [Route("bulkinsertsecquest")]
         public IActionResult BulkInsertSecurityQuestion([FromBody] IEnumerable<SecurityQuestion> secquests)
         {
             _unitOfWork.SecurityQuestion.BulkInsertSecurityQuestion(secquests);
@@ -60,7 +62,7 @@ namespace LBC.Beauty.Parlour.Management.Service.Controllers
 
         [HttpPost]
         [EnableCors("CorsPolicy")]
-        [Route("api/secquest/updatesecquest")]
+        [Route("updatesecquest")]
         public IActionResult UpdateSecurityQuestion([FromBody] SecurityQuestion secquest)
         {
             _unitOfWork.SecurityQuestion.UpdateSecurityQuestion(secquest);
@@ -70,7 +72,7 @@ namespace LBC.Beauty.Parlour.Management.Service.Controllers
 
         [HttpPost]
         [EnableCors("CorsPolicy")]
-        [Route("api/secquest/bulkupdatesecquest")]
+        [Route("bulkupdatesecquest")]
         public IActionResult BulkUpdateSecurityQuestion([FromBody] IEnumerable<SecurityQuestion> secquests)
         {
             _unitOfWork.SecurityQuestion.BulkUpdateSecurityQuestion(secquests);
@@ -80,7 +82,7 @@ namespace LBC.Beauty.Parlour.Management.Service.Controllers
 
         [HttpPost]
         [EnableCors("CorsPolicy")]
-        [Route("api/secquest/removesecquest")]
+        [Route("removesecquest")]
         public IActionResult RemoveSecurityQuestion([FromBody] SecurityQuestion secquest)
         {
             _unitOfWork.SecurityQuestion.RemoveSecurityQuestion(secquest);
@@ -90,7 +92,7 @@ namespace LBC.Beauty.Parlour.Management.Service.Controllers
 
         [HttpPost]
         [EnableCors("CorsPolicy")]
-        [Route("api/secquest/bulkremovesecquest")]
+        [Route("bulkremovesecquest")]
         public IActionResult BulkRemoveSecurityQuestion([FromBody] IEnumerable<SecurityQuestion> secquests)
         {
             _unitOfWork.SecurityQuestion.BulkRemoveSecurityQuestion(secquests);

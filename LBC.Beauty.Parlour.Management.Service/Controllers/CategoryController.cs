@@ -10,8 +10,10 @@ using System.Threading.Tasks;
 
 namespace LBC.Beauty.Parlour.Management.Service.Controllers
 {
+    [ApiVersion("1.0")]
     [ApiController]
     [EnableCors("CorsPolicy")]
+    [Route("api/category/")]
     public class CategoryController : ControllerBase
     {
         private readonly IUnitOfWork _unitOfWork;
@@ -22,7 +24,7 @@ namespace LBC.Beauty.Parlour.Management.Service.Controllers
 
         [HttpGet]
         [EnableCors("CorsPolicy")]
-        [Route("api/category/allcatrequest")]
+        [Route("allcatrequest")]
         public IActionResult GetAllCategorys()
         {
             var allCategorys = _unitOfWork.Category.GetAllCategory();
@@ -31,7 +33,7 @@ namespace LBC.Beauty.Parlour.Management.Service.Controllers
 
         [HttpGet]
         [EnableCors("CorsPolicy")]
-        [Route("api/category/catrequestbyid")]
+        [Route("catrequestbyid")]
         public IActionResult GetCategoryById(int catrequestId)
         {
             var Categoryistrator = _unitOfWork.Category.GetCategoryById(catrequestId);
@@ -40,7 +42,7 @@ namespace LBC.Beauty.Parlour.Management.Service.Controllers
 
         [HttpPost]
         [EnableCors("CorsPolicy")]
-        [Route("api/category/insertcatrequest")]
+        [Route("insertcatrequest")]
         public IActionResult InsertCategory([FromBody] Category catrequest)
         {
             _unitOfWork.Category.InsertCategory(catrequest);
@@ -50,7 +52,7 @@ namespace LBC.Beauty.Parlour.Management.Service.Controllers
 
         [HttpPost]
         [EnableCors("CorsPolicy")]
-        [Route("api/category/bulkinsertcatrequest")]
+        [Route("bulkinsertcatrequest")]
         public IActionResult BulkInsertCategory([FromBody] IEnumerable<Category> catrequest)
         {
             _unitOfWork.Category.BulkInsertCategory(catrequest);
@@ -60,7 +62,7 @@ namespace LBC.Beauty.Parlour.Management.Service.Controllers
 
         [HttpPost]
         [EnableCors("CorsPolicy")]
-        [Route("api/category/updatecatrequest")]
+        [Route("updatecatrequest")]
         public IActionResult UpdateCategory([FromBody] Category catrequest)
         {
             _unitOfWork.Category.UpdateCategory(catrequest);
@@ -70,7 +72,7 @@ namespace LBC.Beauty.Parlour.Management.Service.Controllers
 
         [HttpPost]
         [EnableCors("CorsPolicy")]
-        [Route("api/category/bulkupdatecatrequest")]
+        [Route("bulkupdatecatrequest")]
         public IActionResult BulkUpdateCategory([FromBody] IEnumerable<Category> catrequest)
         {
             _unitOfWork.Category.BulkUpdateCategory(catrequest);
@@ -80,7 +82,7 @@ namespace LBC.Beauty.Parlour.Management.Service.Controllers
 
         [HttpPost]
         [EnableCors("CorsPolicy")]
-        [Route("api/category/removecatrequest")]
+        [Route("removecatrequest")]
         public IActionResult RemoveCategory([FromBody] Category catrequest)
         {
             _unitOfWork.Category.RemoveCategory(catrequest);
@@ -90,7 +92,7 @@ namespace LBC.Beauty.Parlour.Management.Service.Controllers
 
         [HttpPost]
         [EnableCors("CorsPolicy")]
-        [Route("api/category/bulkremovecatrequest")]
+        [Route("bulkremovecatrequest")]
         public IActionResult BulkRemoveCategory([FromBody] IEnumerable<Category> catrequest)
         {
             _unitOfWork.Category.BulkRemoveCategory(catrequest);

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Source Code\\LBC.Beauty.Parlour.Management\\LBC.Beauty.Parlour.Management.Service\\LBC.Beauty.Parlour.Management.Service.csproj": {}
+    "D:\\Source Code\\gitHub\\LBC-Beauty-Parlour-Management\\LBC.Beauty.Parlour.Management.Service\\LBC.Beauty.Parlour.Management.Service.csproj": {}
   },
   "projects": {
-    "D:\\Source Code\\LBC.Beauty.Parlour.Management\\LBC.Beauty.Parlour.Management.DataAccess\\LBC.Beauty.Parlour.Management.DataAccess.csproj": {
+    "D:\\Source Code\\gitHub\\LBC-Beauty-Parlour-Management\\LBC.Beauty.Parlour.Management.DataAccess\\LBC.Beauty.Parlour.Management.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Source Code\\LBC.Beauty.Parlour.Management\\LBC.Beauty.Parlour.Management.DataAccess\\LBC.Beauty.Parlour.Management.DataAccess.csproj",
+        "projectUniqueName": "D:\\Source Code\\gitHub\\LBC-Beauty-Parlour-Management\\LBC.Beauty.Parlour.Management.DataAccess\\LBC.Beauty.Parlour.Management.DataAccess.csproj",
         "projectName": "LBC.Beauty.Parlour.Management.DataAccess",
-        "projectPath": "D:\\Source Code\\LBC.Beauty.Parlour.Management\\LBC.Beauty.Parlour.Management.DataAccess\\LBC.Beauty.Parlour.Management.DataAccess.csproj",
+        "projectPath": "D:\\Source Code\\gitHub\\LBC-Beauty-Parlour-Management\\LBC.Beauty.Parlour.Management.DataAccess\\LBC.Beauty.Parlour.Management.DataAccess.csproj",
         "packagesPath": "C:\\Users\\chakr\\.nuget\\packages\\",
-        "outputPath": "D:\\Source Code\\LBC.Beauty.Parlour.Management\\LBC.Beauty.Parlour.Management.DataAccess\\obj\\",
+        "outputPath": "D:\\Source Code\\gitHub\\LBC-Beauty-Parlour-Management\\LBC.Beauty.Parlour.Management.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\chakr\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\Source Code\\LBC.Beauty.Parlour.Management\\LBC.Beauty.Parlour.Management.Domain\\LBC.Beauty.Parlour.Management.Domain.csproj": {
-                "projectPath": "D:\\Source Code\\LBC.Beauty.Parlour.Management\\LBC.Beauty.Parlour.Management.Domain\\LBC.Beauty.Parlour.Management.Domain.csproj"
+              "D:\\Source Code\\gitHub\\LBC-Beauty-Parlour-Management\\LBC.Beauty.Parlour.Management.Domain\\LBC.Beauty.Parlour.Management.Domain.csproj": {
+                "projectPath": "D:\\Source Code\\gitHub\\LBC-Beauty-Parlour-Management\\LBC.Beauty.Parlour.Management.Domain\\LBC.Beauty.Parlour.Management.Domain.csproj"
               }
             }
           }
@@ -72,14 +72,14 @@
         }
       }
     },
-    "D:\\Source Code\\LBC.Beauty.Parlour.Management\\LBC.Beauty.Parlour.Management.Domain\\LBC.Beauty.Parlour.Management.Domain.csproj": {
+    "D:\\Source Code\\gitHub\\LBC-Beauty-Parlour-Management\\LBC.Beauty.Parlour.Management.Domain\\LBC.Beauty.Parlour.Management.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Source Code\\LBC.Beauty.Parlour.Management\\LBC.Beauty.Parlour.Management.Domain\\LBC.Beauty.Parlour.Management.Domain.csproj",
+        "projectUniqueName": "D:\\Source Code\\gitHub\\LBC-Beauty-Parlour-Management\\LBC.Beauty.Parlour.Management.Domain\\LBC.Beauty.Parlour.Management.Domain.csproj",
         "projectName": "LBC.Beauty.Parlour.Management.Domain",
-        "projectPath": "D:\\Source Code\\LBC.Beauty.Parlour.Management\\LBC.Beauty.Parlour.Management.Domain\\LBC.Beauty.Parlour.Management.Domain.csproj",
+        "projectPath": "D:\\Source Code\\gitHub\\LBC-Beauty-Parlour-Management\\LBC.Beauty.Parlour.Management.Domain\\LBC.Beauty.Parlour.Management.Domain.csproj",
         "packagesPath": "C:\\Users\\chakr\\.nuget\\packages\\",
-        "outputPath": "D:\\Source Code\\LBC.Beauty.Parlour.Management\\LBC.Beauty.Parlour.Management.Domain\\obj\\",
+        "outputPath": "D:\\Source Code\\gitHub\\LBC-Beauty-Parlour-Management\\LBC.Beauty.Parlour.Management.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\chakr\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -126,14 +126,14 @@
         }
       }
     },
-    "D:\\Source Code\\LBC.Beauty.Parlour.Management\\LBC.Beauty.Parlour.Management.Service\\LBC.Beauty.Parlour.Management.Service.csproj": {
+    "D:\\Source Code\\gitHub\\LBC-Beauty-Parlour-Management\\LBC.Beauty.Parlour.Management.Service\\LBC.Beauty.Parlour.Management.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Source Code\\LBC.Beauty.Parlour.Management\\LBC.Beauty.Parlour.Management.Service\\LBC.Beauty.Parlour.Management.Service.csproj",
+        "projectUniqueName": "D:\\Source Code\\gitHub\\LBC-Beauty-Parlour-Management\\LBC.Beauty.Parlour.Management.Service\\LBC.Beauty.Parlour.Management.Service.csproj",
         "projectName": "LBC.Beauty.Parlour.Management.Service",
-        "projectPath": "D:\\Source Code\\LBC.Beauty.Parlour.Management\\LBC.Beauty.Parlour.Management.Service\\LBC.Beauty.Parlour.Management.Service.csproj",
+        "projectPath": "D:\\Source Code\\gitHub\\LBC-Beauty-Parlour-Management\\LBC.Beauty.Parlour.Management.Service\\LBC.Beauty.Parlour.Management.Service.csproj",
         "packagesPath": "C:\\Users\\chakr\\.nuget\\packages\\",
-        "outputPath": "D:\\Source Code\\LBC.Beauty.Parlour.Management\\LBC.Beauty.Parlour.Management.Service\\obj\\",
+        "outputPath": "D:\\Source Code\\gitHub\\LBC-Beauty-Parlour-Management\\LBC.Beauty.Parlour.Management.Service\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\chakr\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -150,11 +150,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\Source Code\\LBC.Beauty.Parlour.Management\\LBC.Beauty.Parlour.Management.DataAccess\\LBC.Beauty.Parlour.Management.DataAccess.csproj": {
-                "projectPath": "D:\\Source Code\\LBC.Beauty.Parlour.Management\\LBC.Beauty.Parlour.Management.DataAccess\\LBC.Beauty.Parlour.Management.DataAccess.csproj"
+              "D:\\Source Code\\gitHub\\LBC-Beauty-Parlour-Management\\LBC.Beauty.Parlour.Management.DataAccess\\LBC.Beauty.Parlour.Management.DataAccess.csproj": {
+                "projectPath": "D:\\Source Code\\gitHub\\LBC-Beauty-Parlour-Management\\LBC.Beauty.Parlour.Management.DataAccess\\LBC.Beauty.Parlour.Management.DataAccess.csproj"
               },
-              "D:\\Source Code\\LBC.Beauty.Parlour.Management\\LBC.Beauty.Parlour.Management.Domain\\LBC.Beauty.Parlour.Management.Domain.csproj": {
-                "projectPath": "D:\\Source Code\\LBC.Beauty.Parlour.Management\\LBC.Beauty.Parlour.Management.Domain\\LBC.Beauty.Parlour.Management.Domain.csproj"
+              "D:\\Source Code\\gitHub\\LBC-Beauty-Parlour-Management\\LBC.Beauty.Parlour.Management.Domain\\LBC.Beauty.Parlour.Management.Domain.csproj": {
+                "projectPath": "D:\\Source Code\\gitHub\\LBC-Beauty-Parlour-Management\\LBC.Beauty.Parlour.Management.Domain\\LBC.Beauty.Parlour.Management.Domain.csproj"
               }
             }
           }

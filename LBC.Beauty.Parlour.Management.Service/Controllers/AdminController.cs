@@ -10,8 +10,10 @@ using System.Threading.Tasks;
 
 namespace LBC.Beauty.Parlour.Management.Service.Controllers
 {
+    [ApiVersion("1.0")]
     [ApiController]
     [EnableCors("CorsPolicy")]
+    [Route("api/admin/")]
     public class AdminController : ControllerBase
     {
         private readonly IUnitOfWork _unitOfWork;
@@ -22,7 +24,7 @@ namespace LBC.Beauty.Parlour.Management.Service.Controllers
 
         [HttpGet]
         [EnableCors("CorsPolicy")]
-        [Route("api/admin/alladmin")]
+        [Route("alladmin")]
         public IActionResult GetAllAdministrators()
         {
             var allAdministrators = _unitOfWork.Administrators.GetAllAdministrators();
@@ -31,7 +33,7 @@ namespace LBC.Beauty.Parlour.Management.Service.Controllers
 
         [HttpGet]
         [EnableCors("CorsPolicy")]
-        [Route("api/admin/adminbyid")]
+        [Route("adminbyid")]
         public IActionResult GetAdminById(int adminId)
         {
             var Administrator = _unitOfWork.Administrators.GetAdminById(adminId);
@@ -40,7 +42,7 @@ namespace LBC.Beauty.Parlour.Management.Service.Controllers
 
         [HttpPost]
         [EnableCors("CorsPolicy")]
-        [Route("api/admin/insertadmin")]
+        [Route("insertadmin")]
         public IActionResult InsertAdmin([FromBody] Admin admin)
         {
             _unitOfWork.Administrators.InsertAdmin(admin);
@@ -50,7 +52,7 @@ namespace LBC.Beauty.Parlour.Management.Service.Controllers
 
         [HttpPost]
         [EnableCors("CorsPolicy")]
-        [Route("api/admin/bulkinsertadmin")]
+        [Route("bulkinsertadmin")]
         public IActionResult BulkInsertAdmin([FromBody] IEnumerable<Admin> admins)
         {
             _unitOfWork.Administrators.BulkInsertAdmin(admins);
@@ -60,7 +62,7 @@ namespace LBC.Beauty.Parlour.Management.Service.Controllers
 
         [HttpPost]
         [EnableCors("CorsPolicy")]
-        [Route("api/admin/updateadmin")]
+        [Route("updateadmin")]
         public IActionResult UpdateAdmin([FromBody] Admin admin)
         {
             _unitOfWork.Administrators.UpdateAdmin(admin);
@@ -70,7 +72,7 @@ namespace LBC.Beauty.Parlour.Management.Service.Controllers
 
         [HttpPost]
         [EnableCors("CorsPolicy")]
-        [Route("api/admin/bulkupdateadmin")]
+        [Route("bulkupdateadmin")]
         public IActionResult BulkUpdateAdmin([FromBody] IEnumerable<Admin> admins)
         {
             _unitOfWork.Administrators.BulkUpdateAdmin(admins);
@@ -80,7 +82,7 @@ namespace LBC.Beauty.Parlour.Management.Service.Controllers
 
         [HttpPost]
         [EnableCors("CorsPolicy")]
-        [Route("api/admin/removeadmin")]
+        [Route("removeadmin")]
         public IActionResult RemoveAdmin([FromBody] Admin admin)
         {
             _unitOfWork.Administrators.RemoveAdmin(admin);
@@ -90,7 +92,7 @@ namespace LBC.Beauty.Parlour.Management.Service.Controllers
 
         [HttpPost]
         [EnableCors("CorsPolicy")]
-        [Route("api/admin/bulkremoveadmin")]
+        [Route("bulkremoveadmin")]
         public IActionResult BulkRemoveAdmin([FromBody] IEnumerable<Admin> admins)
         {
             _unitOfWork.Administrators.BulkRemoveAdmin(admins);
