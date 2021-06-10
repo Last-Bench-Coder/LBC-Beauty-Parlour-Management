@@ -17,6 +17,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Cors;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
+using LBC.Beauty.Parlour.Management.Service.Authentication;
 
 namespace LBC.Beauty.Parlour.Management.Service
 {
@@ -55,6 +59,27 @@ namespace LBC.Beauty.Parlour.Management.Service
                 options.DefaultApiVersion = new ApiVersion(1, 0);
             });
 
+            var key = "My Sample Key test key";
+
+            services.AddAuthentication(x =>
+            {
+                x.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                x.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+            }).AddJwtBearer(x =>
+            {
+                x.RequireHttpsMetadata = false;
+                x.SaveToken = true;
+                x.TokenValidationParameters = new TokenValidationParameters
+                {
+                    ValidateIssuerSigningKey = true,
+                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(key)),
+                    ValidateIssuer = false,
+                    ValidateAudience = false
+                };
+            });
+
+            services.AddSingleton<IJwtAuthenticationManager>(new JwtAuthenticateManager(key));
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "LBC Beauty Parlour API", Version = "v1" });
@@ -81,6 +106,7 @@ namespace LBC.Beauty.Parlour.Management.Service
 
             app.UseCors("CorsPolicy");
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>

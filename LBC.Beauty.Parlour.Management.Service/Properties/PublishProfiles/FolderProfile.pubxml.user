@@ -5,6 +5,6 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <_PublishTargetUrl>D:\Source Code\Deployment\BeautyParlourManagementService</_PublishTargetUrl>
-    <History>True|2021-06-06T15:34:08.4761711Z;True|2021-06-05T18:31:24.0680083+05:30;True|2021-06-01T20:46:23.7433803+05:30;</History>
+    <History>True|2021-06-08T06:02:11.0721193Z;False|2021-06-08T11:31:31.7177574+05:30;True|2021-06-07T21:27:35.3473013+05:30;True|2021-06-06T21:04:08.4761711+05:30;True|2021-06-05T18:31:24.0680083+05:30;True|2021-06-01T20:46:23.7433803+05:30;</History>
   </PropertyGroup>
 </Project>

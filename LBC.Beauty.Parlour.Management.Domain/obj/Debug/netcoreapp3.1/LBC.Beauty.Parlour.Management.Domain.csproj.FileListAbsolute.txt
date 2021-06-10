@@ -1,6 +1,7 @@
 D:\Source Code\gitHub\LBC-Beauty-Parlour-Management\LBC.Beauty.Parlour.Management.Domain\bin\Debug\netcoreapp3.1\LBC.Beauty.Parlour.Management.Domain.deps.json
 D:\Source Code\gitHub\LBC-Beauty-Parlour-Management\LBC.Beauty.Parlour.Management.Domain\bin\Debug\netcoreapp3.1\LBC.Beauty.Parlour.Management.Domain.dll
 D:\Source Code\gitHub\LBC-Beauty-Parlour-Management\LBC.Beauty.Parlour.Management.Domain\bin\Debug\netcoreapp3.1\LBC.Beauty.Parlour.Management.Domain.pdb
+D:\Source Code\gitHub\LBC-Beauty-Parlour-Management\LBC.Beauty.Parlour.Management.Domain\obj\Debug\netcoreapp3.1\LBC.Beauty.Parlour.Management.Domain.csprojAssemblyReference.cache
 D:\Source Code\gitHub\LBC-Beauty-Parlour-Management\LBC.Beauty.Parlour.Management.Domain\obj\Debug\netcoreapp3.1\LBC.Beauty.Parlour.Management.Domain.AssemblyInfoInputs.cache
 D:\Source Code\gitHub\LBC-Beauty-Parlour-Management\LBC.Beauty.Parlour.Management.Domain\obj\Debug\netcoreapp3.1\LBC.Beauty.Parlour.Management.Domain.AssemblyInfo.cs
 D:\Source Code\gitHub\LBC-Beauty-Parlour-Management\LBC.Beauty.Parlour.Management.Domain\obj\Debug\netcoreapp3.1\LBC.Beauty.Parlour.Management.Domain.csproj.CoreCompileInputs.cache

@@ -1,5 +1,6 @@
 ﻿using LBC.Beauty.Parlour.Management.Domain.Entities;
 using LBC.Beauty.Parlour.Management.Domain.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -10,6 +11,7 @@ using System.Threading.Tasks;
 
 namespace LBC.Beauty.Parlour.Management.Service.Controllers
 {
+    [Authorize]
     [ApiVersion("1.0")]
     [ApiController]
     [EnableCors("CorsPolicy")]

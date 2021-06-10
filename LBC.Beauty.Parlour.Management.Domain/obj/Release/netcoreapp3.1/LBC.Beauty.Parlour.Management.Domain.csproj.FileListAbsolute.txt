@@ -7,3 +7,12 @@ D:\Source Code\LBC.Beauty.Parlour.Management\LBC.Beauty.Parlour.Management.Domai
 D:\Source Code\LBC.Beauty.Parlour.Management\LBC.Beauty.Parlour.Management.Domain\obj\Release\netcoreapp3.1\LBC.Beauty.Parlour.Management.Domain.csproj.CoreCompileInputs.cache
 D:\Source Code\LBC.Beauty.Parlour.Management\LBC.Beauty.Parlour.Management.Domain\obj\Release\netcoreapp3.1\LBC.Beauty.Parlour.Management.Domain.dll
 D:\Source Code\LBC.Beauty.Parlour.Management\LBC.Beauty.Parlour.Management.Domain\obj\Release\netcoreapp3.1\LBC.Beauty.Parlour.Management.Domain.pdb
+D:\Source Code\gitHub\LBC-Beauty-Parlour-Management\LBC.Beauty.Parlour.Management.Domain\bin\Release\netcoreapp3.1\LBC.Beauty.Parlour.Management.Domain.deps.json
+D:\Source Code\gitHub\LBC-Beauty-Parlour-Management\LBC.Beauty.Parlour.Management.Domain\bin\Release\netcoreapp3.1\LBC.Beauty.Parlour.Management.Domain.dll
+D:\Source Code\gitHub\LBC-Beauty-Parlour-Management\LBC.Beauty.Parlour.Management.Domain\bin\Release\netcoreapp3.1\LBC.Beauty.Parlour.Management.Domain.pdb
+D:\Source Code\gitHub\LBC-Beauty-Parlour-Management\LBC.Beauty.Parlour.Management.Domain\obj\Release\netcoreapp3.1\LBC.Beauty.Parlour.Management.Domain.csprojAssemblyReference.cache
+D:\Source Code\gitHub\LBC-Beauty-Parlour-Management\LBC.Beauty.Parlour.Management.Domain\obj\Release\netcoreapp3.1\LBC.Beauty.Parlour.Management.Domain.AssemblyInfoInputs.cache
+D:\Source Code\gitHub\LBC-Beauty-Parlour-Management\LBC.Beauty.Parlour.Management.Domain\obj\Release\netcoreapp3.1\LBC.Beauty.Parlour.Management.Domain.AssemblyInfo.cs
+D:\Source Code\gitHub\LBC-Beauty-Parlour-Management\LBC.Beauty.Parlour.Management.Domain\obj\Release\netcoreapp3.1\LBC.Beauty.Parlour.Management.Domain.csproj.CoreCompileInputs.cache
+D:\Source Code\gitHub\LBC-Beauty-Parlour-Management\LBC.Beauty.Parlour.Management.Domain\obj\Release\netcoreapp3.1\LBC.Beauty.Parlour.Management.Domain.dll
+D:\Source Code\gitHub\LBC-Beauty-Parlour-Management\LBC.Beauty.Parlour.Management.Domain\obj\Release\netcoreapp3.1\LBC.Beauty.Parlour.Management.Domain.pdb

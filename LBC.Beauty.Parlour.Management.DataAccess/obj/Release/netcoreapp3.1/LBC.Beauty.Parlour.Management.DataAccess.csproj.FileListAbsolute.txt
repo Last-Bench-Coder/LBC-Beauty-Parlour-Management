@@ -10,3 +10,15 @@ D:\Source Code\LBC.Beauty.Parlour.Management\LBC.Beauty.Parlour.Management.DataA
 D:\Source Code\LBC.Beauty.Parlour.Management\LBC.Beauty.Parlour.Management.DataAccess\obj\Release\netcoreapp3.1\LBC.Beauty.Parlour.Management.DataAccess.csproj.CopyComplete
 D:\Source Code\LBC.Beauty.Parlour.Management\LBC.Beauty.Parlour.Management.DataAccess\obj\Release\netcoreapp3.1\LBC.Beauty.Parlour.Management.DataAccess.dll
 D:\Source Code\LBC.Beauty.Parlour.Management\LBC.Beauty.Parlour.Management.DataAccess\obj\Release\netcoreapp3.1\LBC.Beauty.Parlour.Management.DataAccess.pdb
+D:\Source Code\gitHub\LBC-Beauty-Parlour-Management\LBC.Beauty.Parlour.Management.DataAccess\bin\Release\netcoreapp3.1\LBC.Beauty.Parlour.Management.DataAccess.deps.json
+D:\Source Code\gitHub\LBC-Beauty-Parlour-Management\LBC.Beauty.Parlour.Management.DataAccess\bin\Release\netcoreapp3.1\LBC.Beauty.Parlour.Management.DataAccess.dll
+D:\Source Code\gitHub\LBC-Beauty-Parlour-Management\LBC.Beauty.Parlour.Management.DataAccess\bin\Release\netcoreapp3.1\LBC.Beauty.Parlour.Management.DataAccess.pdb
+D:\Source Code\gitHub\LBC-Beauty-Parlour-Management\LBC.Beauty.Parlour.Management.DataAccess\bin\Release\netcoreapp3.1\LBC.Beauty.Parlour.Management.Domain.dll
+D:\Source Code\gitHub\LBC-Beauty-Parlour-Management\LBC.Beauty.Parlour.Management.DataAccess\bin\Release\netcoreapp3.1\LBC.Beauty.Parlour.Management.Domain.pdb
+D:\Source Code\gitHub\LBC-Beauty-Parlour-Management\LBC.Beauty.Parlour.Management.DataAccess\obj\Release\netcoreapp3.1\LBC.Beauty.Parlour.Management.DataAccess.csprojAssemblyReference.cache
+D:\Source Code\gitHub\LBC-Beauty-Parlour-Management\LBC.Beauty.Parlour.Management.DataAccess\obj\Release\netcoreapp3.1\LBC.Beauty.Parlour.Management.DataAccess.AssemblyInfoInputs.cache
+D:\Source Code\gitHub\LBC-Beauty-Parlour-Management\LBC.Beauty.Parlour.Management.DataAccess\obj\Release\netcoreapp3.1\LBC.Beauty.Parlour.Management.DataAccess.AssemblyInfo.cs
+D:\Source Code\gitHub\LBC-Beauty-Parlour-Management\LBC.Beauty.Parlour.Management.DataAccess\obj\Release\netcoreapp3.1\LBC.Beauty.Parlour.Management.DataAccess.csproj.CoreCompileInputs.cache
+D:\Source Code\gitHub\LBC-Beauty-Parlour-Management\LBC.Beauty.Parlour.Management.DataAccess\obj\Release\netcoreapp3.1\LBC.Beauty.Parlour.Management.DataAccess.csproj.CopyComplete
+D:\Source Code\gitHub\LBC-Beauty-Parlour-Management\LBC.Beauty.Parlour.Management.DataAccess\obj\Release\netcoreapp3.1\LBC.Beauty.Parlour.Management.DataAccess.dll
+D:\Source Code\gitHub\LBC-Beauty-Parlour-Management\LBC.Beauty.Parlour.Management.DataAccess\obj\Release\netcoreapp3.1\LBC.Beauty.Parlour.Management.DataAccess.pdb
