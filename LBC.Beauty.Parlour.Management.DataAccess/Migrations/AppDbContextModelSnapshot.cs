@@ -64,6 +64,9 @@ namespace LBC.Beauty.Parlour.Management.DataAccess.Migrations
                     b.Property<string>("Status")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("StoreId")
+                        .HasColumnType("int");
+
                     b.HasKey("AdminId");
 
                     b.HasAlternateKey("EmailId", "Phone");
@@ -104,8 +107,6 @@ namespace LBC.Beauty.Parlour.Management.DataAccess.Migrations
 
                     b.HasAlternateKey("Title");
 
-                    b.HasIndex("AdminId");
-
                     b.ToTable("tbl_category");
                 });
 
@@ -136,15 +137,91 @@ namespace LBC.Beauty.Parlour.Management.DataAccess.Migrations
                     b.ToTable("tbl_security_question");
                 });
 
-            modelBuilder.Entity("LBC.Beauty.Parlour.Management.Domain.Entities.Category", b =>
+            modelBuilder.Entity("LBC.Beauty.Parlour.Management.Domain.Entities.Store", b =>
                 {
-                    b.HasOne("LBC.Beauty.Parlour.Management.Domain.Entities.Admin", "Admin")
-                        .WithMany()
-                        .HasForeignKey("AdminId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                    b.Property<int>("StoreId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Navigation("Admin");
+                    b.Property<string>("Address")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("DateCreated")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("DateUpdated")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Description")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("EmailId")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Fax")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Logo")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("Phone")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Status")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Website")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("StoreId");
+
+                    b.HasAlternateKey("Name");
+
+                    b.ToTable("tbl_store");
+                });
+
+            modelBuilder.Entity("LBC.Beauty.Parlour.Management.Domain.Entities.SubCategory", b =>
+                {
+                    b.Property<int>("SubCategoryId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<int>("AdminId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Banner")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("CategoryId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("DateCreated")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("DateUpdated")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Description")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Status")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("SubCategoryId");
+
+                    b.HasAlternateKey("Title");
+
+                    b.ToTable("tbl_sub_category");
                 });
 #pragma warning restore 612, 618
         }

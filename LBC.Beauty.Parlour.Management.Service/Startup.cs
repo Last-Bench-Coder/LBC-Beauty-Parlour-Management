@@ -38,9 +38,11 @@ namespace LBC.Beauty.Parlour.Management.Service
         {
             #region Repositories
             services.AddTransient(typeof(IGenericRepository<>), typeof(GenericRepository<>));
+            services.AddTransient<IStoreRepository, StoreRepository>();
             services.AddTransient<IAdminRepository, AdminRepository>();
             services.AddTransient<ISecQuestRepository, SecQuestRepository>();
             services.AddTransient<ICategoryRepository, CategoryRepository>();
+            services.AddTransient<ISubCategoryRepository, SubCategoryRepository>();
             services.AddTransient<IUnitOfWork, UnitOfWork>();
             #endregion
 

@@ -16,11 +16,15 @@ namespace LBC.Beauty.Parlour.Management.DataAccess.UnitOfWork
             Administrators = new AdminRepository(_context);
             SecurityQuestion = new SecQuestRepository(_context);
             Category = new CategoryRepository(_context);
+            SubCategory = new SubCategoryRepository(_context);
+            Store = new StoreRepository(_context);
         }
 
         public IAdminRepository Administrators { get; }
         public ISecQuestRepository SecurityQuestion { get; }
         public ICategoryRepository Category { get; }
+        public ISubCategoryRepository SubCategory { get; }
+        public IStoreRepository Store { get; }
 
         public int Complete()
         {

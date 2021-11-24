@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31313.79
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LBC.Beauty.Parlour.Management.Domain", "LBC.Beauty.Parlour.Management.Domain\LBC.Beauty.Parlour.Management.Domain.csproj", "{D86BE0B3-1CEB-4DDB-AAEB-57CC07E4D77D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LBC.Beauty.Parlour.Management.Domain", "LBC.Beauty.Parlour.Management.Domain\LBC.Beauty.Parlour.Management.Domain.csproj", "{D86BE0B3-1CEB-4DDB-AAEB-57CC07E4D77D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LBC.Beauty.Parlour.Management.DataAccess", "LBC.Beauty.Parlour.Management.DataAccess\LBC.Beauty.Parlour.Management.DataAccess.csproj", "{7CDAE3FF-7C46-440D-B7CA-0C8965A0F3E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LBC.Beauty.Parlour.Management.DataAccess", "LBC.Beauty.Parlour.Management.DataAccess\LBC.Beauty.Parlour.Management.DataAccess.csproj", "{7CDAE3FF-7C46-440D-B7CA-0C8965A0F3E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LBC.Beauty.Parlour.Management.Service", "LBC.Beauty.Parlour.Management.Service\LBC.Beauty.Parlour.Management.Service.csproj", "{602E1E2E-62C3-4C7F-9949-04F6F7F27A7B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LBC.Beauty.Parlour.Management.Service", "LBC.Beauty.Parlour.Management.Service\LBC.Beauty.Parlour.Management.Service.csproj", "{602E1E2E-62C3-4C7F-9949-04F6F7F27A7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LBC-Beauty-Parlour-Management.Web", "LBC-Beauty-Parlour-Management.Web\LBC-Beauty-Parlour-Management.Web.csproj", "{5DFE5CD4-2B91-4C78-BF33-004E4AAF76E4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{602E1E2E-62C3-4C7F-9949-04F6F7F27A7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{602E1E2E-62C3-4C7F-9949-04F6F7F27A7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{602E1E2E-62C3-4C7F-9949-04F6F7F27A7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DFE5CD4-2B91-4C78-BF33-004E4AAF76E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DFE5CD4-2B91-4C78-BF33-004E4AAF76E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DFE5CD4-2B91-4C78-BF33-004E4AAF76E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DFE5CD4-2B91-4C78-BF33-004E4AAF76E4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

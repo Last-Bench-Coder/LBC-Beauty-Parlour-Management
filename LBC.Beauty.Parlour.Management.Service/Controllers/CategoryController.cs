@@ -11,7 +11,6 @@ using System.Threading.Tasks;
 
 namespace LBC.Beauty.Parlour.Management.Service.Controllers
 {
-    [Authorize]
     [ApiVersion("1.0")]
     [ApiController]
     [EnableCors("CorsPolicy")]

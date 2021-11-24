@@ -16,6 +16,5 @@ namespace LBC.Beauty.Parlour.Management.Domain.Entities
         public DateTime DateCreated { get; set; }
         public DateTime DateUpdated { get; set; }
         public int AdminId { get; set; }
-        public Admin Admin { get; set; }
     }
 }

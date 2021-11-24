@@ -7,6 +7,7 @@ namespace LBC.Beauty.Parlour.Management.Domain.Entities
     public class Admin
     {
         public int AdminId { get; set; }
+        public int StoreId { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string EmailId { get; set; }

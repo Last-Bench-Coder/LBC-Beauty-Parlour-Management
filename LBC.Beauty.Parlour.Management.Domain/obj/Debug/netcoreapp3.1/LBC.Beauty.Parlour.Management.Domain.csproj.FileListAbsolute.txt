@@ -7,3 +7,12 @@ D:\Source Code\gitHub\LBC-Beauty-Parlour-Management\LBC.Beauty.Parlour.Managemen
 D:\Source Code\gitHub\LBC-Beauty-Parlour-Management\LBC.Beauty.Parlour.Management.Domain\obj\Debug\netcoreapp3.1\LBC.Beauty.Parlour.Management.Domain.csproj.CoreCompileInputs.cache
 D:\Source Code\gitHub\LBC-Beauty-Parlour-Management\LBC.Beauty.Parlour.Management.Domain\obj\Debug\netcoreapp3.1\LBC.Beauty.Parlour.Management.Domain.dll
 D:\Source Code\gitHub\LBC-Beauty-Parlour-Management\LBC.Beauty.Parlour.Management.Domain\obj\Debug\netcoreapp3.1\LBC.Beauty.Parlour.Management.Domain.pdb
+E:\Dot Net Projects\LBC-Beauty-Parlour-Management\LBC.Beauty.Parlour.Management.Domain\bin\Debug\netcoreapp3.1\LBC.Beauty.Parlour.Management.Domain.deps.json
+E:\Dot Net Projects\LBC-Beauty-Parlour-Management\LBC.Beauty.Parlour.Management.Domain\bin\Debug\netcoreapp3.1\LBC.Beauty.Parlour.Management.Domain.dll
+E:\Dot Net Projects\LBC-Beauty-Parlour-Management\LBC.Beauty.Parlour.Management.Domain\bin\Debug\netcoreapp3.1\LBC.Beauty.Parlour.Management.Domain.pdb
+E:\Dot Net Projects\LBC-Beauty-Parlour-Management\LBC.Beauty.Parlour.Management.Domain\obj\Debug\netcoreapp3.1\LBC.Beauty.Parlour.Management.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\Dot Net Projects\LBC-Beauty-Parlour-Management\LBC.Beauty.Parlour.Management.Domain\obj\Debug\netcoreapp3.1\LBC.Beauty.Parlour.Management.Domain.AssemblyInfoInputs.cache
+E:\Dot Net Projects\LBC-Beauty-Parlour-Management\LBC.Beauty.Parlour.Management.Domain\obj\Debug\netcoreapp3.1\LBC.Beauty.Parlour.Management.Domain.AssemblyInfo.cs
+E:\Dot Net Projects\LBC-Beauty-Parlour-Management\LBC.Beauty.Parlour.Management.Domain\obj\Debug\netcoreapp3.1\LBC.Beauty.Parlour.Management.Domain.csproj.CoreCompileInputs.cache
+E:\Dot Net Projects\LBC-Beauty-Parlour-Management\LBC.Beauty.Parlour.Management.Domain\obj\Debug\netcoreapp3.1\LBC.Beauty.Parlour.Management.Domain.dll
+E:\Dot Net Projects\LBC-Beauty-Parlour-Management\LBC.Beauty.Parlour.Management.Domain\obj\Debug\netcoreapp3.1\LBC.Beauty.Parlour.Management.Domain.pdb

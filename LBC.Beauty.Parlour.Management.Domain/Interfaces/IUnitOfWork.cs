@@ -9,6 +9,8 @@ namespace LBC.Beauty.Parlour.Management.Domain.Interfaces
         IAdminRepository Administrators { get; }
         ISecQuestRepository SecurityQuestion { get; }
         ICategoryRepository Category { get; }
+        ISubCategoryRepository SubCategory { get; }
+        IStoreRepository Store { get; }
         int Complete();
     }
 }

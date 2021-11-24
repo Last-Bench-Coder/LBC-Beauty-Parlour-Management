@@ -7115,19 +7115,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\chakr\\.nuget\\packages\\": {}
+    "C:\\Users\\Chakrapani Upadhyaya\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Source Code\\gitHub\\LBC-Beauty-Parlour-Management\\LBC.Beauty.Parlour.Management.Service\\LBC.Beauty.Parlour.Management.Service.csproj",
+      "projectUniqueName": "E:\\Dot Net Projects\\LBC-Beauty-Parlour-Management\\LBC.Beauty.Parlour.Management.Service\\LBC.Beauty.Parlour.Management.Service.csproj",
       "projectName": "LBC.Beauty.Parlour.Management.Service",
-      "projectPath": "D:\\Source Code\\gitHub\\LBC-Beauty-Parlour-Management\\LBC.Beauty.Parlour.Management.Service\\LBC.Beauty.Parlour.Management.Service.csproj",
-      "packagesPath": "C:\\Users\\chakr\\.nuget\\packages\\",
-      "outputPath": "D:\\Source Code\\gitHub\\LBC-Beauty-Parlour-Management\\LBC.Beauty.Parlour.Management.Service\\obj\\",
+      "projectPath": "E:\\Dot Net Projects\\LBC-Beauty-Parlour-Management\\LBC.Beauty.Parlour.Management.Service\\LBC.Beauty.Parlour.Management.Service.csproj",
+      "packagesPath": "C:\\Users\\Chakrapani Upadhyaya\\.nuget\\packages\\",
+      "outputPath": "E:\\Dot Net Projects\\LBC-Beauty-Parlour-Management\\LBC.Beauty.Parlour.Management.Service\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\chakr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Chakrapani Upadhyaya\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7141,11 +7141,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\Source Code\\gitHub\\LBC-Beauty-Parlour-Management\\LBC.Beauty.Parlour.Management.DataAccess\\LBC.Beauty.Parlour.Management.DataAccess.csproj": {
-              "projectPath": "D:\\Source Code\\gitHub\\LBC-Beauty-Parlour-Management\\LBC.Beauty.Parlour.Management.DataAccess\\LBC.Beauty.Parlour.Management.DataAccess.csproj"
+            "E:\\Dot Net Projects\\LBC-Beauty-Parlour-Management\\LBC.Beauty.Parlour.Management.DataAccess\\LBC.Beauty.Parlour.Management.DataAccess.csproj": {
+              "projectPath": "E:\\Dot Net Projects\\LBC-Beauty-Parlour-Management\\LBC.Beauty.Parlour.Management.DataAccess\\LBC.Beauty.Parlour.Management.DataAccess.csproj"
             },
-            "D:\\Source Code\\gitHub\\LBC-Beauty-Parlour-Management\\LBC.Beauty.Parlour.Management.Domain\\LBC.Beauty.Parlour.Management.Domain.csproj": {
-              "projectPath": "D:\\Source Code\\gitHub\\LBC-Beauty-Parlour-Management\\LBC.Beauty.Parlour.Management.Domain\\LBC.Beauty.Parlour.Management.Domain.csproj"
+            "E:\\Dot Net Projects\\LBC-Beauty-Parlour-Management\\LBC.Beauty.Parlour.Management.Domain\\LBC.Beauty.Parlour.Management.Domain.csproj": {
+              "projectPath": "E:\\Dot Net Projects\\LBC-Beauty-Parlour-Management\\LBC.Beauty.Parlour.Management.Domain\\LBC.Beauty.Parlour.Management.Domain.csproj"
             }
           }
         }
@@ -7205,7 +7205,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -17,12 +17,16 @@ namespace LBC.Beauty.Parlour.Management.DataAccess.AppData
         public DbSet<SecurityQuestion> SecurityQuestions { get; set; }
         public DbSet<Admin> Administrators { get; set; }
         public DbSet<Category> Categories { get; set; }
+        public DbSet<SubCategory> SubCategories { get; set; }
+        public DbSet<Store> Store { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfiguration(new AdminConfig());
             modelBuilder.ApplyConfiguration(new SecQuestConfig());
             modelBuilder.ApplyConfiguration(new CategoryConfig());
+            modelBuilder.ApplyConfiguration(new SubCategoryConfig());
+            modelBuilder.ApplyConfiguration(new StoreConfig());
         }
     }
 }

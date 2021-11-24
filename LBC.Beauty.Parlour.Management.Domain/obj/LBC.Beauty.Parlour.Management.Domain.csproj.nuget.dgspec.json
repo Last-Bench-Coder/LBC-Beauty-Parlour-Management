@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Source Code\\gitHub\\LBC-Beauty-Parlour-Management\\LBC.Beauty.Parlour.Management.Domain\\LBC.Beauty.Parlour.Management.Domain.csproj": {}
+    "E:\\Dot Net Projects\\LBC-Beauty-Parlour-Management\\LBC.Beauty.Parlour.Management.Domain\\LBC.Beauty.Parlour.Management.Domain.csproj": {}
   },
   "projects": {
-    "D:\\Source Code\\gitHub\\LBC-Beauty-Parlour-Management\\LBC.Beauty.Parlour.Management.Domain\\LBC.Beauty.Parlour.Management.Domain.csproj": {
+    "E:\\Dot Net Projects\\LBC-Beauty-Parlour-Management\\LBC.Beauty.Parlour.Management.Domain\\LBC.Beauty.Parlour.Management.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Source Code\\gitHub\\LBC-Beauty-Parlour-Management\\LBC.Beauty.Parlour.Management.Domain\\LBC.Beauty.Parlour.Management.Domain.csproj",
+        "projectUniqueName": "E:\\Dot Net Projects\\LBC-Beauty-Parlour-Management\\LBC.Beauty.Parlour.Management.Domain\\LBC.Beauty.Parlour.Management.Domain.csproj",
         "projectName": "LBC.Beauty.Parlour.Management.Domain",
-        "projectPath": "D:\\Source Code\\gitHub\\LBC-Beauty-Parlour-Management\\LBC.Beauty.Parlour.Management.Domain\\LBC.Beauty.Parlour.Management.Domain.csproj",
-        "packagesPath": "C:\\Users\\chakr\\.nuget\\packages\\",
-        "outputPath": "D:\\Source Code\\gitHub\\LBC-Beauty-Parlour-Management\\LBC.Beauty.Parlour.Management.Domain\\obj\\",
+        "projectPath": "E:\\Dot Net Projects\\LBC-Beauty-Parlour-Management\\LBC.Beauty.Parlour.Management.Domain\\LBC.Beauty.Parlour.Management.Domain.csproj",
+        "packagesPath": "C:\\Users\\Chakrapani Upadhyaya\\.nuget\\packages\\",
+        "outputPath": "E:\\Dot Net Projects\\LBC-Beauty-Parlour-Management\\LBC.Beauty.Parlour.Management.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\chakr\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Chakrapani Upadhyaya\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -54,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

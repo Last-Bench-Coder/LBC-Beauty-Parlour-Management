@@ -10,3 +10,16 @@ D:\Source Code\gitHub\LBC-Beauty-Parlour-Management\LBC.Beauty.Parlour.Managemen
 D:\Source Code\gitHub\LBC-Beauty-Parlour-Management\LBC.Beauty.Parlour.Management.DataAccess\obj\Debug\netcoreapp3.1\LBC.Beauty.Parlour.Management.DataAccess.csproj.CopyComplete
 D:\Source Code\gitHub\LBC-Beauty-Parlour-Management\LBC.Beauty.Parlour.Management.DataAccess\obj\Debug\netcoreapp3.1\LBC.Beauty.Parlour.Management.DataAccess.dll
 D:\Source Code\gitHub\LBC-Beauty-Parlour-Management\LBC.Beauty.Parlour.Management.DataAccess\obj\Debug\netcoreapp3.1\LBC.Beauty.Parlour.Management.DataAccess.pdb
+E:\Dot Net Projects\LBC-Beauty-Parlour-Management\LBC.Beauty.Parlour.Management.DataAccess\bin\Debug\netcoreapp3.1\LBC.Beauty.Parlour.Management.DataAccess.deps.json
+E:\Dot Net Projects\LBC-Beauty-Parlour-Management\LBC.Beauty.Parlour.Management.DataAccess\bin\Debug\netcoreapp3.1\LBC.Beauty.Parlour.Management.DataAccess.dll
+E:\Dot Net Projects\LBC-Beauty-Parlour-Management\LBC.Beauty.Parlour.Management.DataAccess\bin\Debug\netcoreapp3.1\LBC.Beauty.Parlour.Management.DataAccess.pdb
+E:\Dot Net Projects\LBC-Beauty-Parlour-Management\LBC.Beauty.Parlour.Management.DataAccess\bin\Debug\netcoreapp3.1\LBC.Beauty.Parlour.Management.Domain.dll
+E:\Dot Net Projects\LBC-Beauty-Parlour-Management\LBC.Beauty.Parlour.Management.DataAccess\bin\Debug\netcoreapp3.1\LBC.Beauty.Parlour.Management.Domain.pdb
+E:\Dot Net Projects\LBC-Beauty-Parlour-Management\LBC.Beauty.Parlour.Management.DataAccess\obj\Debug\netcoreapp3.1\LBC.Beauty.Parlour.Management.DataAccess.csproj.AssemblyReference.cache
+E:\Dot Net Projects\LBC-Beauty-Parlour-Management\LBC.Beauty.Parlour.Management.DataAccess\obj\Debug\netcoreapp3.1\LBC.Beauty.Parlour.Management.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+E:\Dot Net Projects\LBC-Beauty-Parlour-Management\LBC.Beauty.Parlour.Management.DataAccess\obj\Debug\netcoreapp3.1\LBC.Beauty.Parlour.Management.DataAccess.AssemblyInfoInputs.cache
+E:\Dot Net Projects\LBC-Beauty-Parlour-Management\LBC.Beauty.Parlour.Management.DataAccess\obj\Debug\netcoreapp3.1\LBC.Beauty.Parlour.Management.DataAccess.AssemblyInfo.cs
+E:\Dot Net Projects\LBC-Beauty-Parlour-Management\LBC.Beauty.Parlour.Management.DataAccess\obj\Debug\netcoreapp3.1\LBC.Beauty.Parlour.Management.DataAccess.csproj.CoreCompileInputs.cache
+E:\Dot Net Projects\LBC-Beauty-Parlour-Management\LBC.Beauty.Parlour.Management.DataAccess\obj\Debug\netcoreapp3.1\LBC.Beauty.Parlour.Management.DataAccess.csproj.CopyComplete
+E:\Dot Net Projects\LBC-Beauty-Parlour-Management\LBC.Beauty.Parlour.Management.DataAccess\obj\Debug\netcoreapp3.1\LBC.Beauty.Parlour.Management.DataAccess.dll
+E:\Dot Net Projects\LBC-Beauty-Parlour-Management\LBC.Beauty.Parlour.Management.DataAccess\obj\Debug\netcoreapp3.1\LBC.Beauty.Parlour.Management.DataAccess.pdb
